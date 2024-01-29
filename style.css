@@ -8,13 +8,13 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    background: linear-gradient(135deg, #157765, #4e085f);
     padding: 10px;
 }
 
 .todo-app {
     width: 100%;
-    max-width: 540px;
+    max-width: 740px;
     background: white;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
@@ -55,7 +55,7 @@ button {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5945;
+    background: #157765;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -103,9 +103,11 @@ ul li span{
     color: #555;
     line-height: 40px;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 ul li span:hover {
-    background-color: #edeef0;
+    background-color: #157765;
+    opacity: 0.5;
+    color : white;
 }
