@@ -12,6 +12,17 @@
     padding: 10px;
 }
 
+h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+h1 img {
+    width: 3.5rem;
+    margin-left: 10px;
+}
+
 .todo-app {
     width: 100%;
     max-width: 740px;
